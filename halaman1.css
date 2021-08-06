@@ -1,0 +1,61 @@
+header {
+	background-color: whitesmoke;
+	text-align: center;
+	height: 100px;
+	margin: 0px 10px;
+	margin-bottom: 10px;
+}
+
+.namablog {
+	padding-top: 10px;
+	padding-bottom: 0px%;
+}
+.container1 {
+	width: 31%;
+	height: 1000px;
+	background-color: white;
+	color: black;
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.container2 {
+	float: right;
+	width: 66%;
+	background-color: white;
+	margin-right: 10px;
+}
+
+.kotaksatu {
+	background-color: lightblue;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.kotaksatuteks {
+	padding:  5px 10px;
+}
+
+.kotaksatu h1 {
+	text-align: center;
+}
+
+.kotakdua {
+	background-color: #fafad2;
+	width:  100%;
+	line-height: 1.5em;
+	
+}
+
+.kotakduateks {
+	padding: 5px 10px;
+}
+body {
+
+background-color: #000000;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 10px ), repeating-linear-gradient( #ffffff55, #ffffff );
+
+}
