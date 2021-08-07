@@ -1,61 +1,140 @@
-header {
-	background-color: whitesmoke;
-	text-align: center;
-	height: 100px;
-	margin: 0px 10px;
-	margin-bottom: 10px;
+div {
+	box-sizing: border-box;
 }
 
-.namablog {
-	padding-top: 10px;
-	padding-bottom: 0px%;
-}
-.container1 {
-	width: 31%;
-	height: 1000px;
-	background-color: white;
-	color: black;
-	float: left;
-	text-align: center;
-	margin-left: 10px;
-}
-
-.container2 {
-	float: right;
-	width: 66%;
-	background-color: white;
-	margin-right: 10px;
-}
-
-.kotaksatu {
-	background-color: lightblue;
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
-}
-
-.kotaksatuteks {
-	padding:  5px 10px;
-}
-
-.kotaksatu h1 {
+.navigasi{
 	text-align: center;
 }
-
-.kotakdua {
-	background-color: #fafad2;
-	width:  100%;
-	line-height: 1.5em;
+.satu {
+	height: 30px;
+	width: 25%;
+	background-color: lightpink;
+	border: 5px solid blue;
+	display: inline-block;
 	
 }
 
-.kotakduateks {
-	padding: 5px 10px;
+.dua {
+	height: 30px;
+	width: 25%;
+	background-color: lightblue;
+	border: 5px solid red;
+	display: inline-block;
 }
-body {
 
-background-color: #000000;
-opacity: 1;
-background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 10px ), repeating-linear-gradient( #ffffff55, #ffffff );
+.tiga {
+	height: 30px;
+	width: 25%;
+	background-color: lightpink;
+	border: 5px solid blue;
+	display: inline-block;
+}
+
+.empat {
+	height: 30px;
+	width: 25%;
+	background-color: lightblue;
+	border: 5px solid red;
+	display: inline-block;
+}
+
+.isi {
+	overflow: auto;
+}
+
+.lima {
+	height: 500px;
+	width: 25%;
+	background-color: lightgreen;
+	border: 5px solid navajowhite;
+	float: left;
+}
+
+.lima li {
+	list-style: none;
+}
+
+.lima h1 {
+	text-align: center;
+}
+.enam {
+	height: 500px;
+	width: 75%;
+	background-color: navajowhite;
+	border: 5px solid lightgreen;
+	float: left;
+}
+
+.enam p {
+	padding: 0px 25px;
+}
+
+.enam h1 {
+	text-align: center;
+}
+
+.contoh {
+	border:  3px solid black;
+	margin:  auto;
+	width: 300px;
+	background-color: ghostwhite;
+}
+
+.tujuh {
+	height: 250px;
+	width: 100%;
+	background-color: lightslategrey;
+	border: 5px dashed lightcyan;
+}
+
+.judul {
+	padding-top: 15px;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+.bungkus {
+	height: 250px;
+	width: 100%;
+	background-color: lightslategrey;
+	border: 5px dashed lightcyan;
+}
+
+.delapan {
+	height: 150px;
+	width: 30%;
+	background-color: red;
+	border: 5px solid white;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 30px;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+}
+
+.sembilan {
+	height: 150px;
+	width: 30%;
+	background-color: yellow;
+	border: 5px solid white;
+	display: inline-block;
+	margin-left: 30px;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+}
+
+.sepuluh {
+	height: 150px;
+	width: 30%;
+	background-color: green;
+	border: 5px solid white;
+	display: inline-block;
+	margin-left: 30px;
+	color: white;
+	text-align: center;
+	line-height: 100px;
 
 }
